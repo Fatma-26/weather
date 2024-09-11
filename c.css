@@ -69,3 +69,8 @@ img{
 .data{
     padding: 20px;
 } 
+#btn{
+    padding: 10px;
+    border-radius: 50px;
+    border: none;
+}
