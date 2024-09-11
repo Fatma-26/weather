@@ -5,22 +5,47 @@
    
 }
 
+/* 
+
+body{
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ */
+
+
+
+
+ 
+
 body{
     background-color: azure;
-    margin: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
 }
 
 .parent{
+    
     background-color: rgb(24, 107, 232);
+    width: 80%;
     display: flex;
-    flex-direction: column;
-    text-align: center;
+   /*  flex-direction: column;
+    text-align: center; */
     border-radius: 10px;
     padding: 30px;
+    flex-wrap: wrap;
     
-}
+    
+} 
 .parent div{
     padding: 40px;
+    flex-flow: 1;
 }
 .search-bar{
    height: 40px;
@@ -38,8 +63,9 @@ img{
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
    
 }
 .data{
     padding: 20px;
-}
+} 
