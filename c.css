@@ -29,6 +29,11 @@ body{
     align-items: center;
     height: 100vh;
 }
+.grandpa{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: rgb(24, 107, 232);
+}
 
 .parent{
     
@@ -37,6 +42,8 @@ body{
     display: flex;
    /*  flex-direction: column;
     text-align: center; */
+    display: grid;
+    grid-template-rows: 1fr 1f1 1fr;
     border-radius: 10px;
     padding: 30px;
     flex-wrap: wrap;
@@ -44,7 +51,7 @@ body{
     
 } 
 .child1{
-    margin-bottom: 150px;
+    margin-bottom: 100px;
 }
 .parent div{
     padding: 40px;
