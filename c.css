@@ -43,6 +43,9 @@ body{
     
     
 } 
+.child1{
+    margin-bottom: 150px;
+}
 .parent div{
     padding: 40px;
     flex-flow: 1;
