@@ -16,12 +16,6 @@ body{
 }
 
  */
-
-
-
-
- 
-
 body{
     background-color: azure;
     display: flex;
@@ -86,4 +80,14 @@ img{
     padding: 10px;
     border-radius: 50px;
     border: none;
+    cursor: pointer;
+    background-color: rgb(210, 216, 222);
+    color: white;
+}
+
+
+
+#btn:hover{
+    border-color: #d5d8de;
+    background-color: #a9b7da;
 }
