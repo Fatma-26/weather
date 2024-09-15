@@ -68,9 +68,10 @@ img{
     font-size: 30px;
     color: white;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    display: flex;
+   /*  display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    flex-wrap: wrap; */
+   
    
 }
 .data{
@@ -90,4 +91,9 @@ img{
 #btn:hover{
     border-color: #d5d8de;
     background-color: #a9b7da;
+}
+.grandma{
+    display: grid;
+   
+    grid-template-columns: 1fr 1fr 1fr;
 }
