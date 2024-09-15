@@ -51,10 +51,10 @@ body{
     
 } 
 .child1{
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 .parent div{
-    padding: 40px;
+   
     flex-flow: 1;
 }
 .search-bar{
@@ -63,9 +63,12 @@ body{
    border: none;
    padding: 8px;
 }
+
 img{
-    width: 200px;
-    text-align: center;
+    width: 280px;
+    height:173px ;
+   
+  
 }
 .child2{
     font-size: 30px;
